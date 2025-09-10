@@ -10,11 +10,14 @@ public class throw_throw_ {
        }
 
 
+
+
     }
     public static void withdraw(int bal, int amount) throws Exception{
         if(bal<amount){
             throw new Exception("my exception");
         }
         System.out.println("successful withdrawal" );
+        System.out.println("bal:"+bal);
     }
 }
